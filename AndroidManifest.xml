@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ztartrainerworkoutprogram"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ztartrainerworkoutprogram.ProgramMainActicity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ztartrainerworkoutprogram.NewProgramActicity"
+            android:label="@string/title_activity_new_program_acticity" >
+        </activity>
+        <activity
+            android:name="com.example.ztartrainerworkoutprogram.NewExerciseActicivy"
+            android:label="@string/title_activity_new_exercise_acticivy" >
+        </activity>
+        <activity
+            android:name="com.example.ztartrainerworkoutprogram.CurrentProgramActivity"
+            android:label="@string/title_activity_current_program" >
+        </activity>
+        <activity
+            android:name="com.example.ztartrainerworkoutprogram.RunningProgramActicity"
+            android:label="@string/title_activity_running_program_acticity" >
+        </activity>
+        <activity
+            android:name="com.example.ztartrainerworkoutprogram.Exercise_listview"
+            android:label="@string/title_activity_exercise_listview" >
+        </activity>
+    </application>
+
+</manifest>
