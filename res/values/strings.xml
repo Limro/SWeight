@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">ZtarTrainer</string>
+    <string name="title_activity_exercise">Exercises</string>
+    <string name="title_activity_video">Demonstration</string>
+    <string name="error_player">Youtube error</string>
+    <string name="title_activity_main">Zt4rTrainer</string>
+    <string-array name="Abs">
+        <item>Leg Raise:l4kQd9eWclE</item>
+        <item>Crunches:MKmrqcoCZ-M</item>
+    </string-array>
+    <string-array name="Chest">
+        <item>Bench Press:-AuIURhCoAA</item>
+        <item>Cable Chest Press:FVWJglwid4I</item>
+    </string-array>
+    <string-array name="Triceps">
+        <item>Bench Dips:lPXJMzFXFvc</item>
+        <item>Cable Tricep Extension:lPXJMzFXFvc</item>
+    </string-array>
+    <string-array name="Back">
+        <item>Bent Over Row:B1T6ZYrPAy4</item>
+        <item>Pull Ups:UgKaDSA3uIg</item>
+    </string-array>
+    <string-array name="Biceps">
+        <item>Barbell Curl:kwG2ipFRgfo</item>
+        <item>Cable Curl:kwG2ipFRgfo</item>
+    </string-array>
+    <string-array name="muscle">
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Abs</item>
+        <item>Legs</item>
+    </string-array>
+    <string-array name="Legs">
+        <item>Squat:QKKZ9AGYTi4</item>
+        <item>Lunge:COKYKgQ8KR0</item>
+    </string-array>
+    <string name="ExerciseButton">Exercises</string>
+    <string name="RunningButton">Running</string>
+    <string name="WorkoutButton">Workout</string>
+    <string name="WeightButton">Weight</string>
+    <string name="downloadButton">Download Art pices!</string>
+    <string name="downloadBroadcast">DownloadCompleteBroadcast</string>
+    <string name="noteButton">Notes</string>
+    <string name="title_activity_note">Noter</string>
+    <string name="contentDescription">Art</string>
+    <string name="BroadCastFromServiceOnDestroy">BroadCastFromServiceOnDestroy</string>
+    <string name="BroadCastFromServiceRunningID">BroadCastFromServiceRunningID</string>
+    <string name="BroadCastFromLocationChanged">BroadCastFromLocationChanged</string>
+    <string name="BroadCastFromLocationChanged_AvgSpeed">BroadCastFromLocationChanged_AvgSpeed</string>
+    <string name="BroadCastFromLocationChanged_MaxSpeed">BroadCastFromLocationChanged_MaxSpeed</string>
+    <string name="BroadCastFromLocationChanged_Distance">BroadCastFromLocationChanged_Distance</string>
+    <string name="TimeWhenClickOnStop_SharedPreference">TimeWhenClickOnStop_SharedPreference</string>
+    <string name="RunningMain_NewRunningRoute">New running route</string>
+    <string name="RunningMain_Date">Date</string>
+    <string name="RunningMain_Distance">Distance</string>
+    <string name="RunningMain_Time">Time</string>
+    <string name="RunningDetailed_Date">Date</string>
+    <string name="RunningDetailed_Distance">Distance</string>
+    <string name="RunningDetailed_Time">Time</string>
+    <string name="RunningDetailed_AvgSpeed">Avg. speed</string>
+    <string name="RunningDetailed_MaxSpeed">Max speed</string>
+    <string name="RunningDetailed_BtnStart">Start</string>
+    <string name="RunningDetailed_BtnStop">Stop</string>
+    <string name="title_activity_running_detailed">Route info</string>
+    <string name="ServiceIntentExtra_DateString">ServiceIntentExtra_DateString</string>
+    <string name="RunningMain_Listview">RunningMainListView</string>
+    <string name="RunningMainToDetail_Date">RunningMainToDetail_Date</string>
+    <string name="RunningMainToDetail_Time">RunningMainToDetail_Time</string>
+    <string name="RunningMainToDetail_Distance">RunningMainToDetail_Distance</string>
+    <string name="RunningMainToDetail_MaxSpeed">RunningMainToDetail_MaxSpeed</string>
+    <string name="RunningMainToDetail_AvgSpeed">RunningMainToDetail_AvgSpeed</string>
+    <string name="RunningMainToDetail_RunID">RunningMainToDetailRunID</string>
+    <string name="ButtonExercise">Exercises</string>
+    <string name="action_settings">Settings</string>
+    <string name="program_name">ZtarTrainer Program</string>
+    <string name="new_button_text">New Program</string>
+    <string name="title_activity_new_program_acticity">New workout</string>
+    <string name="new_program_kilo">Kilo</string>
+    <string name="new_program_reps">Repititions</string>
+    <string name="ok_button_text">OK</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="new_program_name">Name</string>
+    <string name="new_program_description">Description</string>
+    <string name="title_activity_new_exercise_acticivy">New/edit exercise</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_current_program">Current workout</string>
+    <string name="add_button_text">Add</string>
+    <string name="run_button_text">Run</string>
+    <string name="title_activity_running_program_acticity">Active workout</string>
+    <string name="open_program_message">open_program_message</string>
+    <string name="title_activity_exercise_listview">Exercises</string>
+    <string name="edit_exercise_message">edit_exercise_message</string>
+    <string name="run_program_message">run_program_message</string>
+    <string name="regret_button_text">Regret click</string>
+    <string name="ztar_shared_preferences">ztar_shared_preferences</string>
+    <string name="current_program_name_pref">current_program_name_pref</string>
+    <string name="new_exersice_added">new_exersice_added</string>
+    <string name="existing_exercise_changed">existing_exercise_changed</string>
+    <string name="existing_exersice_nochange">existing_exersice_nochange</string>
+    <string name="current_exersice_pref">current_exersice_pref</string>
+    <string name="wrong_number_toast">Please enter repititions and kilo</string>
+    <string name="no_name_toast">Please enter a name</string>
+    <string name="space_slash_space"> / </string>
+    <string name="new_program_added">new_program_added</string>
+    <string name="new_program_added_description">new_program_added_description</string>
+    <string name="new_program_added_name">new_program_added_name</string>
+    <string name="delete_image_content_desc">Image that represent a cross for deleting items</string>
+    <string name="delete_button_pressed_broadcast">delete_button_pressed_broadcast</string>
+    <string name="deleted_exersice_pos">deleted_exersice_pos</string>
+    <string name="program_delete_button_pressed_broadcast">program_delete_button_pressed_broadcast</string>
+    <string name="new_program_sets">Set</string>
+    <string name="program_name_list_message">program_name_list_message</string>
+    <string name="program_nameexists_message">Program name already exists!</string>
+    <string name="continue_or_reload_program_message">Do you want to reset program og continue?</string>
+    <string name="reset_program_popup">Reset</string>
+    <string name="continue_program_popup">Continue</string>
+    <string name="yes">yes</string>
+    <string name="saved_running_program_pref">saved_running_program_pref</string>
+    <string name="saved_running_program__clicked_list_pref">saved_running_program__clicked_list_pref</string>
+    <string name="continue_saved_program_message">continue_saved_program_message</string>
+    <string name="program_name_to_long_toast">The program can only contain 20 signs!</string>
+    <string name="exercise_name_to_long_toast">The exercise name can only contain 12
+ signs</string>
+    <string name="reps_name_text">Reps:   </string>
+    <string name="sets_name_text">Sets:   </string>
+    <string name="name_textview_id">Name:   </string>
+    <string name="program_name_text">Name: </string>
+    <string name="kilo_name_text">Kilo:    </string>
+    <string name="Weight">Weight:</string>
+    <string name="EnterWeight">Enter weight</string>
+    <string name="Enter">Enter</string>
+    <string name="ErrorNoInput">Please enter a weight</string>
+    <string name="ErrorUndefined">Something went horrible wrong!</string>
+    <string name="Select">Select timespan:</string>
+    <string-array name="selector_arrays">
+        <item>3 days</item>
+        <item>7 days</item>
+        <item>2 weeks</item>
+        <item>1 month</item>
+        <item>3 month</item>
+        <item>6 month</item>
+        <item>1 year</item>
+        <item>All time</item>
+    </string-array>
+    <string name="selector_text">Choose span</string>
+    <string name="ErrorNoData">No data in database</string>
+    <string name="BadUpdate">Value not inserted in Database</string>
+    <string name="EditBtn">Edit</string>
+    <string name="dialog_message">Change weight</string>
+    <string name="dialog_title">Change weight</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="WeightDialogText">Modify weight</string>
+    <string name="WeightDialogHint">Set new weight</string>
+    <string name="ErrorBadListPos">Error retrieving data</string>
+    <string name="DatabaseData">Get entries</string>
+    <string name="SeeGraph">See graph</string>
+    <string name="title_activity_running_main">Running routes</string>
+    <string name="title_activity_program_main">Workouts</string>
+    <string name="weight_main_activity">Weight</string>
+    <string name="weight_graph_activity">Weight in graph</string>
+    <string name="title_activity_muscles">Muscles</string>
+</resources>

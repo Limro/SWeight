@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RunningDetailed" >
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:onClick="btnStartClicked"
+        android:text="@string/RunningDetailed_BtnStart" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="5dp"
+        android:onClick="btnStoppedClicked"
+        android:text="@string/RunningDetailed_BtnStop" />
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnStart" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtviewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RunningDetailed_Date" />
+
+            <TextView
+                android:id="@+id/txtviewDateResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtviewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RunningDetailed_Time" />
+
+            <TextView
+                android:id="@+id/txtviewTimeResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtviewDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RunningDetailed_Distance" />
+
+            <TextView
+                android:id="@+id/txtviewDistanceResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtviewAvgSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RunningDetailed_AvgSpeed" />
+
+            <TextView
+                android:id="@+id/txtviewAvgSpeedResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtviewMaxSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RunningDetailed_MaxSpeed" />
+
+            <TextView
+                android:id="@+id/txtviewMaxSpeedResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

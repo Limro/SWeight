@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <color name="custom_theme_color">#b0b0ff</color>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+	    <item name="android:windowBackground">@color/base</item>
+	  	<item name="android:colorBackground">@color/custom_theme_color</item>
+	    <item name="android:buttonStyle">@style/CKButton</item>
+	    <item name="android:textViewStyle">@style/CKText</item>
+	    <item name="android:editTextStyle">@style/CKEditText</item>
+	    
+    </style>
+    
+    <style name="CKButton" parent="android:style/Widget.Button">
+		 <item name="android:layout_margin">3dp</item>
+		 <item name="android:background">#d98a0e</item>
+		 <item name="android:textColor">#ffffff</item>
+		 <item name="android:paddingLeft">10dp</item>
+		 <item name="android:paddingRight">10dp</item>
+	 </style>
+	 
+     <style name="CKText" parent="android:style/Widget.TextView">
+		 <item name="android:textColor">#ffffff</item>
+	 </style>
+	 
+     <style name="CKEditText" parent="android:style/Widget.EditText">
+		 <item name="android:textColor">#ffffff</item>
+	 </style>
+
+</resources>

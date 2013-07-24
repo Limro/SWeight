@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iha.smap.startrainer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="iha.smap.startrainer.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="iha.smap.startrainer.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+     <uses-feature
+	     android:glEsVersion="0x00020000"
+	     android:required="true" />
+	    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAKUu1abiLOf3JcNWTwOBaHY1fJGrhT0tU" />
+
+        <uses-library android:name="com.google.android.maps" />
+        
+        <service
+            android:name="iha.smap.startrainer.exercises.DownloadService"
+            android:enabled="true" />
+
+      	<service
+            android:name="iha.smap.startrainer.running.RunningMapService"
+            android:enabled="true"
+            android:exported="false" />
+        
+        <activity
+            android:name="iha.smap.startrainer.exercises.MuscleActivity"
+            android:label="@string/title_activity_muscles" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.exercises.ExerciseActivity"
+            android:label="@string/title_activity_exercise"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.exercises.VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.exercises.NoteActivity"
+            android:label="@string/title_activity_note"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.running.RunningDetailed"
+            android:label="@string/title_activity_running_detailed" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.running.RunningMain"
+            android:label="@string/title_activity_running_main" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.workout.ProgramMainActicity"
+            android:label="@string/title_activity_program_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.workout.NewProgramActicity"
+            android:label="@string/title_activity_new_program_acticity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.workout.NewExerciseActicivy"
+            android:label="@string/title_activity_new_exercise_acticivy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.workout.CurrentProgramActivity"
+            android:label="@string/title_activity_current_program"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.workout.RunningProgramActicity"
+            android:label="@string/title_activity_running_program_acticity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.workout.Exercise_listview"
+            android:label="@string/title_activity_exercise_listview" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="iha.smap.startrainer.weight.WeightMain"
+            android:label="@string/weight_main_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="iha.smap.startrainer.weight.chart"
+                  android:label="@string/weight_graph_activity">
+        </activity>
+        
+        <activity
+            android:name="iha.smap.startrainer.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
